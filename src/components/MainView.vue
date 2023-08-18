@@ -189,7 +189,7 @@ export default {
         id: 2,
         images: [
           {
-            img: 'public/images/PacBot.gif',
+            img: 'images/PacBot.gif',
           },
           {
             img: 'images/PacBot.jpg',

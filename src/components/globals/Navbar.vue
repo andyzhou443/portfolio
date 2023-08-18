@@ -11,7 +11,7 @@
             <img
               class="logo"
               src="/svg/personal-logo.svg"
-              alt="Kiwi standing on oval"
+              alt="Welp...something didn't work"
             />
           </a>
         </div>
@@ -25,7 +25,7 @@
           <img
             class="logo"
             src="/svg/personal-logo.svg"
-            alt="Kiwi standing on oval"
+            alt="Welp...something didn't work"
           />
         </a>
       </div>

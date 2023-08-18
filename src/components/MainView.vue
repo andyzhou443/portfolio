@@ -88,7 +88,7 @@
             </div>
           </div>
           <br />
-          <a href="/Andy_Zhou_Resume.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
+          <a href="Andy_Zhou_Resume.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
         </section>
         <section id="Contact" aria-labelledby="contact-heading">
           <h2 id="contact-heading">Contact</h2>
@@ -158,10 +158,10 @@ export default {
         id: 0,
         images: [
           {
-            img: '/images/Productify.gif',
+            img: 'images/Productify.gif',
           },
           {
-            img: '/images/Productify.jpg',
+            img: 'images/Productify.jpg',
           },
         ],
         title: 'Productify',
@@ -176,7 +176,7 @@ export default {
             img: '',
           },
           {
-            img: '/images/MBSAM.jpg',
+            img: 'images/MBSAM.jpg',
           },
         ],
         title: 'Metric-based Software Assessment',
@@ -189,10 +189,10 @@ export default {
         id: 2,
         images: [
           {
-            img: '/images/PacBot.gif',
+            img: 'public/images/PacBot.gif',
           },
           {
-            img: '/images/PacBot.jpg',
+            img: 'images/PacBot.jpg',
           },
         ],
         title: 'Harvard Pac Bot Competition',
@@ -204,10 +204,10 @@ export default {
         id: 3,
         images: [
           {
-            img: '/images/PacManML.gif',
+            img: 'images/PacManML.gif',
           },
           {
-            img: '/images/PacManML.jpg',
+            img: 'images/PacManML.jpg',
           },
         ],
         title: 'Pac Man Reinforcement Learning',
@@ -219,10 +219,10 @@ export default {
         id: 4,
         images: [
           {
-            img: '/images/3DPrinterRound.gif',
+            img: 'images/3DPrinterRound.gif',
           },
           {
-            img: '/images/.MasterAssemblyBelt.JPG',
+            img: 'images/.MasterAssemblyBelt.JPG',
           },
         ],
         title: 'Fusion Core 3D Printer',

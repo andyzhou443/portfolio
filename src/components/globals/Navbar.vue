@@ -10,7 +10,7 @@
           <a href="fb.com">
             <img
               class="logo"
-              src="/svg/personal-logo.svg"
+              src="svg/personal-logo.svg"
               alt="Welp...something didn't work"
             />
           </a>
@@ -24,7 +24,7 @@
         <a class="logo-mobile" href="fb.com">
           <img
             class="logo"
-            src="/svg/personal-logo.svg"
+            src="svg/personal-logo.svg"
             alt="Welp...something didn't work"
           />
         </a>

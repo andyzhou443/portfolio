@@ -13,9 +13,7 @@
             <br />
             <div class="contact">
               <a href="mailto:yourmail@gmail.com"> andyzhou443@gmail.com</a>
-              <a href="https://github.com/andyzhou443/"
-                >github.com/andyzhou443</a
-              >
+              <a href="https://github.com/andyzhou443/">github.com/andyzhou443</a>
               <a href="tel:+1-347-679-4597">+1-347-679-4597</a>
               <br />
               <!--<a href="/impressum">Impressum</a> LEGAL INFORMATION-->
@@ -40,14 +38,15 @@
         <section id="Intro" aria-labelledby="intro-heading">
           <h2 id="intro-heading">About Me</h2>
           <span>
-            I earned my degree in Computer Engineering from the 
-            City College of New York in 2023. While my journey 
-            began with a fascination for 3D printers, it evolved 
-            into a deep exploration of Embedded Software Engineering 
-            and Machine Learning. Today, I am dedicated to embracing 
-            and conquering the boundless array of challenges that 
-            the world of programming presents, continually striving 
-            to expand my knowledge and skills.
+            Hey there! I graduated from the City College of New York in May 2023 
+            with a Bachelor's in Computer Engineering. I particularly enjoy writing 
+            quick and efficient code while considering the constraints of the product. 
+            In addition, I am working on an application called Productify, which aims 
+            to help people with ADHD/ASD improve productivity. This application is a 
+            passion project of mine and won the CUNY Zahn Center's Business Venture 
+            Competition! Overall, I am always seeking new and interesting opportunities. 
+            Feel free to contact me using the information below and thank you for checking 
+            out my portfolio website!
           </span>
         </section>
         <section id="Projects" aria-labelledby="projects-heading">
@@ -88,7 +87,7 @@
             </div>
           </div>
           <br />
-          <a href="Andy_Zhou_Resume.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
+          <a href="public/Andy_Zhou_Resume_GRAD.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
         </section>
         <section id="Contact" aria-labelledby="contact-heading">
           <h2 id="contact-heading">Contact</h2>
@@ -122,6 +121,20 @@ export default {
   },
   data: () => ({
     experiences: [
+      {
+        date: 'Aug 2024 - Present',
+        location: 'New York, NY',
+        company: 'GEICO',
+        title: 'Software Engineer 2',
+        txt: 'Kotlin, Android Studio, Jetpack Compose, Loadrunner Cloud, Firebase, Splunk',
+      },
+      {
+        date: 'Jul 2022 - Aug 2024',
+        location: 'New York, NY',
+        company: 'Google',
+        title: 'Software Engineer Apprentice',
+        txt: 'Python',
+      },
       {
         date: 'Jun 2022 - Aug 2022',
         location: 'Dulles, VA',
@@ -158,10 +171,10 @@ export default {
         id: 0,
         images: [
           {
-            img: 'images/Productify.gif',
+            img: 'images/productify.gif',
           },
           {
-            img: 'images/Productify.jpg',
+            img: 'images/productify_logo_8.jpg',
           },
         ],
         title: 'Productify',
@@ -173,7 +186,7 @@ export default {
         id: 1,
         images: [
           {
-            img: '',
+            img: 'images/MBSAM.jpg',
           },
           {
             img: 'images/MBSAM.jpg',
@@ -189,10 +202,10 @@ export default {
         id: 2,
         images: [
           {
-            img: 'images/PacBot.gif',
+            img: '/images/PacBot(1).gif',
           },
           {
-            img: 'images/PacBot.jpg',
+            img: '/images/PacBot.jpg',
           },
         ],
         title: 'Harvard Pac Bot Competition',
@@ -222,7 +235,7 @@ export default {
             img: 'images/3DPrinterRound.gif',
           },
           {
-            img: 'images/.MasterAssemblyBelt.JPG',
+            img: 'images/MasterAssemblyBelt.jpg',
           },
         ],
         title: 'Fusion Core 3D Printer',

@@ -87,7 +87,7 @@
             </div>
           </div>
           <br />
-          <a href="public/Andy_Zhou_Resume_GRAD.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
+          <a href="/Andy_Zhou_Resume_GRAD.pdf"> <Fa fa="file-pdf" /> Download Resume </a>
         </section>
         <section id="Contact" aria-labelledby="contact-heading">
           <h2 id="contact-heading">Contact</h2>
@@ -126,7 +126,7 @@ export default {
         location: 'New York, NY',
         company: 'GEICO',
         title: 'Software Engineer 2',
-        txt: 'Kotlin, Android Studio, Jetpack Compose, Loadrunner Cloud, Firebase, Splunk',
+        txt: 'Kotlin, Android Studio, Jetpack Compose, Loadrunner Cloud, Firebase, Splunk, Azure DevOps',
       },
       {
         date: 'Jul 2022 - Aug 2024',
